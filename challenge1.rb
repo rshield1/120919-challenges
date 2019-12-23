@@ -23,11 +23,11 @@ end
 #by using puts before each method call, we are telling ruby to 'puts' out the
 #return value of each method call
 
-puts palindrome('racecar')
-  #expected output: 'I am a long palindrome!'
-puts palindrome('did')
-  #expected output: 'I am a palindrome!'
-puts palindrome('hi')
-  #expected output: 'I am not long and not a palindrome!'
-puts palindrome('goodbye')
-  #expected output: 'I am not a palindrome!'
+palindrome('racecar')
+  #expected return: 'I am a long palindrome!'
+palindrome('did')
+  #expected return: 'I am a palindrome!'
+palindrome('hi')
+  #expected return: 'I am not long and not a palindrome!'
+palindrome('goodbye')
+  #expected return: 'I am not a palindrome!'
