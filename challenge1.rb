@@ -16,15 +16,6 @@ If that string is NOT a palindrome and is shorter than 5 letters, return
 
 
 def palindrome(str)
-  if str == str.reverse && str.length < 5
-    puts "I am a palindrome!"
-  elsif str != str.reverse && str.length < 5
-    puts "I am not long and not a palindrome!"
-  elsif str == str.reverse && str.length > 5
-    puts "I am a long palindrome!"
-  else 
-    puts "I am not a palindrome!"
-  end
 
 end
 

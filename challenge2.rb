@@ -18,15 +18,7 @@ only includes the elements that have that string as a substring
 
 
 def array_checker(array, arg)
-  if arg.class == Integer
-    return array.select do |element|
-      element.length > arg
-    end
-  else
-    return array.select do |element|
-      element.include?(arg)
-    end
-  end
+
 end
 
 array_checker(["Bob", "Sarah", "Jeff", "Molly", "Alice", "Judy", "Johnathon", "Joe"], 4)

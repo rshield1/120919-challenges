@@ -13,17 +13,6 @@ Use the method below that accepts an array of strings
 
 
   def sorting_arrays(array)
-      array.sort do |a,b|
-        if a.include?(" ") && b.include?(" ")
-          a <=> b
-        elsif a.include?(" ")
-          -1
-        elsif b.include?(" ")
-          1
-        else
-          b <=> a
-        end
-      end
 
   end
 

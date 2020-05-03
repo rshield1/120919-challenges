@@ -9,16 +9,6 @@ and the values are integers counting how often that element appeared in the arra
 
 
 def frequency_count(a)
-  hist = {}
-  a.each do |el|
-      if hist[el].nil?
-          hist[el] = 1
-      else
-          hist[el] += 1
-      end
-  end
-  hist
-
 end
 
 
